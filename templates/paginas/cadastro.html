@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de pontos do cartão de crédito - Valores dos cartões</title>
+</head>
+<body>
+	<h1>Valores dos cartões</h1>
+	<table>
+		<tr>
+			<th>Cartão</th>
+			<th>Pontos por real gasto</th>
+		</tr>
+		<tr>
+			<td>Flask Gold</td>
+			<td>1 ponto</td>
+		</tr>
+		<tr>
+			<td>Flask Premium</td>
+			<td>2 pontos</td>
+		</tr>
+		<tr>
+			<td>Flask Platinum</td>
+			<td>3 pontos</td>
+		</tr>
+		<tr>
+			<td>Flask Internacional</td>
+			<td>1,5 pontos</td>
+		</tr>
+		<tr>
+			<td>Flask Black</td>
+			<td>5 pontos</td>
+		</tr>
+	</table>
+	<p><a href="/">Voltar para a página inicial</a></p>
+	<p><a href="/cadastro">Cadastrar novo cartão</a></p>
+	<p><a href="/cartoes">Ver cartões cadastraveis</a></p>
+
+</body>
+</html>
+
+{% endblock %}
